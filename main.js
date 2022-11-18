@@ -1,12 +1,12 @@
-import {loadGLTF, loadVideo} from "../../CIP/libs/loader.js";
+import {loadGLTF, loadVideo} from "../../CIP/CIP/libs/loader.js";
 //import {mockWithVideo} from '../../libs/camera-mock.js';
-import {createChromaMaterial} from '../../CIP/libs/chroma-video.js';
+import {createChromaMaterial} from '../../CIP/CIP/libs/chroma-video.js';
 
 const THREE = window.MINDAR.IMAGE.THREE;
 
 document.addEventListener('DOMContentLoaded', () => {
   const start = async() => {
-    //mockWithVideo('../../CIP/assets/mock-videos/course-banner1.mp4');
+    //mockWithVideo('../../CIP/CIP/assets/mock-videos/course-banner1.mp4');
     
     const mindarThree = new window.MINDAR.IMAGE.MindARThree({
       container: document.body,
