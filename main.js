@@ -10,11 +10,11 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const mindarThree = new window.MINDAR.IMAGE.MindARThree({
       container: document.body,
-      imageTargetSrc: '../../CIP/assets/targets/CIPtarget.mind',
+      imageTargetSrc: '../../CIP/CIP/assets/targets/CIPtarget.mind',
     });
     const {renderer, scene, camera} = mindarThree;
 
-    const video = await loadVideo("../../CIP/assets/videos/CIPvideo2.mp4");
+    const video = await loadVideo("../../CIP/CIP/assets/videos/CIPvideo2.mp4");
     video.play();
     video.pause();
     const texture = new THREE.VideoTexture(video);
